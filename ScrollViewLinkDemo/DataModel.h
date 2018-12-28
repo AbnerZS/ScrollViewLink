@@ -12,6 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DataModel : NSObject
 
+@property(nonatomic,copy)NSString *coverImg;
+@property(nonatomic,copy)NSString *titleStr;
+@property(nonatomic,copy)NSString *subTitleStr;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

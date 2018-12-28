@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString (Addtion)
 
+- (CGFloat)heightWithFont:(UIFont*)font
+            withLineWidth:(NSInteger)lineWidth;
+
 @end
 
 NS_ASSUME_NONNULL_END

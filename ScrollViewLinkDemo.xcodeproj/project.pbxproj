@@ -15,6 +15,14 @@
 		5417B1E221D5CA8F00C08DB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5417B1E121D5CA8F00C08DB5 /* main.m */; };
 		5417B1EC21D5CA8F00C08DB5 /* ScrollViewLinkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5417B1EB21D5CA8F00C08DB5 /* ScrollViewLinkDemoTests.m */; };
 		5417B1F721D5CA8F00C08DB5 /* ScrollViewLinkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5417B1F621D5CA8F00C08DB5 /* ScrollViewLinkDemoUITests.m */; };
+		5417B20621D5CBB900C08DB5 /* SmallImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5417B20521D5CBB900C08DB5 /* SmallImageScrollView.m */; };
+		5417B20921D5CBD900C08DB5 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5417B20821D5CBD900C08DB5 /* DataModel.m */; };
+		5417B20C21D5D49000C08DB5 /* NSString+Addtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5417B20B21D5D49000C08DB5 /* NSString+Addtion.m */; };
+		5417B21021D5D6D700C08DB5 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5417B20D21D5D6D600C08DB5 /* 2.png */; };
+		5417B21121D5D6D700C08DB5 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5417B20E21D5D6D600C08DB5 /* 1.png */; };
+		5417B21221D5D6D700C08DB5 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5417B20F21D5D6D600C08DB5 /* 3.png */; };
+		5417B21521D5D6E400C08DB5 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5417B21321D5D6E400C08DB5 /* 4.png */; };
+		5417B21621D5D6E400C08DB5 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 5417B21421D5D6E400C08DB5 /* 5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,17 @@
 		5417B1F221D5CA8F00C08DB5 /* ScrollViewLinkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewLinkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5417B1F621D5CA8F00C08DB5 /* ScrollViewLinkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewLinkDemoUITests.m; sourceTree = "<group>"; };
 		5417B1F821D5CA8F00C08DB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5417B20421D5CBB900C08DB5 /* SmallImageScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmallImageScrollView.h; sourceTree = "<group>"; };
+		5417B20521D5CBB900C08DB5 /* SmallImageScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmallImageScrollView.m; sourceTree = "<group>"; };
+		5417B20721D5CBD900C08DB5 /* DataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		5417B20821D5CBD900C08DB5 /* DataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		5417B20A21D5D49000C08DB5 /* NSString+Addtion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Addtion.h"; sourceTree = "<group>"; };
+		5417B20B21D5D49000C08DB5 /* NSString+Addtion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Addtion.m"; sourceTree = "<group>"; };
+		5417B20D21D5D6D600C08DB5 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		5417B20E21D5D6D600C08DB5 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		5417B20F21D5D6D600C08DB5 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		5417B21321D5D6E400C08DB5 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		5417B21421D5D6E400C08DB5 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +120,21 @@
 		5417B1D121D5CA8D00C08DB5 /* ScrollViewLinkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5417B20E21D5D6D600C08DB5 /* 1.png */,
+				5417B20D21D5D6D600C08DB5 /* 2.png */,
+				5417B20F21D5D6D600C08DB5 /* 3.png */,
+				5417B21321D5D6E400C08DB5 /* 4.png */,
+				5417B21421D5D6E400C08DB5 /* 5.png */,
 				5417B1D221D5CA8D00C08DB5 /* AppDelegate.h */,
 				5417B1D321D5CA8D00C08DB5 /* AppDelegate.m */,
 				5417B1D521D5CA8D00C08DB5 /* ViewController.h */,
 				5417B1D621D5CA8D00C08DB5 /* ViewController.m */,
+				5417B20421D5CBB900C08DB5 /* SmallImageScrollView.h */,
+				5417B20521D5CBB900C08DB5 /* SmallImageScrollView.m */,
+				5417B20721D5CBD900C08DB5 /* DataModel.h */,
+				5417B20821D5CBD900C08DB5 /* DataModel.m */,
+				5417B20A21D5D49000C08DB5 /* NSString+Addtion.h */,
+				5417B20B21D5D49000C08DB5 /* NSString+Addtion.m */,
 				5417B1D821D5CA8D00C08DB5 /* Main.storyboard */,
 				5417B1DB21D5CA8F00C08DB5 /* Assets.xcassets */,
 				5417B1DD21D5CA8F00C08DB5 /* LaunchScreen.storyboard */,
@@ -236,8 +266,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5417B1DF21D5CA8F00C08DB5 /* LaunchScreen.storyboard in Resources */,
+				5417B21521D5D6E400C08DB5 /* 4.png in Resources */,
 				5417B1DC21D5CA8F00C08DB5 /* Assets.xcassets in Resources */,
+				5417B21021D5D6D700C08DB5 /* 2.png in Resources */,
+				5417B21221D5D6D700C08DB5 /* 3.png in Resources */,
+				5417B21621D5D6E400C08DB5 /* 5.png in Resources */,
 				5417B1DA21D5CA8D00C08DB5 /* Main.storyboard in Resources */,
+				5417B21121D5D6D700C08DB5 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +298,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5417B1D721D5CA8D00C08DB5 /* ViewController.m in Sources */,
+				5417B20921D5CBD900C08DB5 /* DataModel.m in Sources */,
 				5417B1E221D5CA8F00C08DB5 /* main.m in Sources */,
 				5417B1D421D5CA8D00C08DB5 /* AppDelegate.m in Sources */,
+				5417B20621D5CBB900C08DB5 /* SmallImageScrollView.m in Sources */,
+				5417B20C21D5D49000C08DB5 /* NSString+Addtion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
